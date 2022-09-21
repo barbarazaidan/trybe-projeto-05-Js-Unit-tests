@@ -26,6 +26,6 @@ const average = (arrayRecebido) => {
     return Math.round(media);
 };
   
-console.log(average([3, 5]));
+// console.log(average([3, 5]));
 
 module.exports = average;
