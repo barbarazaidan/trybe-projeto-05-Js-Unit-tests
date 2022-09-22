@@ -34,8 +34,36 @@
   arrayGenerator('entries', { sum: 3, mult: 2, div: 0, sub: -1 }) // [ [ 'sum', 3 ], [ 'mult', 2 ], [ 'div', 0 ], [ 'sub', -1 ] ]
 */
 
-const calculator = (number1, number2) => {};
+const calculator = (number1, number2) => {
+  const operacoes = { 
+    sum: number1 + number2,
+    mult: number1 * number2,
+    div: parseInt((number1 / number2), 10), // o 10 aqui é um radix que funciona como segundo parâmetro do parseInt, sendo exigido pelo Lint. Existem vários números que podem ser usados como radix, entre 2 e 36, escolhi o 10 porque ele representa o sistema decimal padrão da matemática
+    sub: number1 - number2,
+  };
+  return operacoes;
+};
 
-const arrayGenerator = (type, object) => {};
+const arrayGenerator = (type, object) => {
+  switch (type) {
+    case 'keys':
+      return Object.keys(object);
+    case 'values':
+      return Object.values(object);
+    case 'entries':
+      return Object.entries(object);  
+    default:  
+  }
+};
+
+// objetoTeste = { 
+//  sum: 3,
+//  mult: 2,
+//  div: 0,
+//  sub: -1,
+// };
+
+// console.log(calculator(5, 7));
+// console.log(arrayGenerator('entries', objetoTeste));
 
 module.exports = { calculator, arrayGenerator };
