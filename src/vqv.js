@@ -29,6 +29,6 @@ trabalho na Trybe e mando muito em programação!
   return mensagem;
 };
 
-console.log(vqv('ana', 42));
+// console.log(vqv('ana', 42));
 
 module.exports = vqv;
