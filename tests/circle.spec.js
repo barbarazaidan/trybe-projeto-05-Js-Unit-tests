@@ -27,6 +27,7 @@ describe('4 - Implemente os casos de teste para a função `circle`', () => {
     const circulo = circle(1);
     const circuloProp = Object.keys(circulo);
     const circulo2 = circle(2);
+    const circulo2Prop = Object.keys(circulo2);
     const circulo3 =  circle(3);
     const circulo3Prop = Object.keys(circulo3);
 
@@ -44,12 +45,16 @@ describe('4 - Implemente os casos de teste para a função `circle`', () => {
     expect(circle()).toBeUndefined(); 
     
     // Teste se dentro do objeto retornado, a função retorna uma `key` com `value` igual à circunferência correta para um círculo de raio 2.
-    expect(circulo2).toHaveProperty("circumference", 12.56); 
+    expect(circulo2Prop).toContain("circumference"); 
+    expect(circulo2.circumference).toBeCloseTo(12.56);
 
     // Teste se dentro do objeto retornado, a função retorna uma `key` com `value` igual à área correta para um círculo de raio 3.
-    expect(circulo3).toHaveProperty("area", 28.26); 
+    expect(circulo3Prop).toContain("area");
+    expect(circulo3.area).toBeCloseTo(28.26);
 
     // Teste se a função retorna, em um objeto, os dados corretos de um círculo de raio 3.
-    expect(circulo3).toEqual({radius: 3, area: 28.26, circumference: 18.84});
+    const PI = 3.14;
+    const radius = 3;
+    expect(circulo3).toEqual({radius: 3, area: PI * 3 * radius, circumference: 2 * PI * radius});
   });
 });
