@@ -30,7 +30,7 @@ const circle = (radius) => {
   };
 };
 
- console.log(circle(3));
+// console.log(circle(3));
 // return {
 //  radius,
 //  area: parseFloat((PI * radius * radius).toFixed(2)), // o toFixed() transforma um número em uma string e define quanta casas decimais serão apresentadas, basta preencher o parâmetro. Já o parseFloat converte a string de volta em um número. 

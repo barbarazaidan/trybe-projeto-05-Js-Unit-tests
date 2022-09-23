@@ -41,5 +41,13 @@ const productDetails = (firstProduct, secondProduct) => [
     },
   },
 ];
+ // const entradas0 = productDetails('love')[0];
+ // const entradas1 = productDetails()[1];
+ // const id0 = entradas0.details.productId;
+ // const id1 = entradas1.details.productId;
+ // const comeco123 = id0.length-3;
+ // console.log(comeco123); 
+
+ // console.log(id0.search(/123/));
 
 module.exports = productDetails;
