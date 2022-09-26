@@ -48,6 +48,6 @@ const productDetails = (firstProduct, secondProduct) => [
  // const comeco123 = id0.length-3;
  // console.log(comeco123); 
 
- // console.log(id0.search(/123/));
+ // console.log(id0.search(/123/)); o search() retorna a posição onde começa a expressão que eu estou procurando
 
 module.exports = productDetails;
