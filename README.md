@@ -17,6 +17,8 @@ Confira os requisitos exigidos pela Trybe (texto extraído dos readme oficial da
 </p>
 </details>
 
+---
+
 **2. Implemente os casos de teste para a função numbers**
 
 <details><summary>Detalhes</summary>
@@ -26,6 +28,8 @@ Confira os requisitos exigidos pela Trybe (texto extraído dos readme oficial da
 
 </p>
 </details>
+
+---
 
 **3. Implemente a função vqv**
 
@@ -37,6 +41,8 @@ Confira os requisitos exigidos pela Trybe (texto extraído dos readme oficial da
 </p>
 </details>
 
+---
+
 **4. Implemente os casos de teste para a função circle**
 
 <details><summary>Detalhes</summary>
@@ -46,6 +52,8 @@ Confira os requisitos exigidos pela Trybe (texto extraído dos readme oficial da
 
 </p>
 </details>
+
+---
 
 **5. Implemente a função createStudent**
 
@@ -57,6 +65,8 @@ Confira os requisitos exigidos pela Trybe (texto extraído dos readme oficial da
 </p>
 </details>
 
+---
+
 **6. Implemente os casos de teste para a função productDetails**
 
 <details><summary>Detalhes</summary>
@@ -66,6 +76,8 @@ Confira os requisitos exigidos pela Trybe (texto extraído dos readme oficial da
 
 </p>
 </details>
+
+---
 
 **7. Implemente as funções calculator e arrayGenerator**
 
@@ -77,6 +89,8 @@ Confira os requisitos exigidos pela Trybe (texto extraído dos readme oficial da
 </p>
 </details>
 
+---
+
 **8. Implemente a função myCounter**
 
 <details><summary>Detalhes</summary>
@@ -86,6 +100,8 @@ Confira os requisitos exigidos pela Trybe (texto extraído dos readme oficial da
 
 </p>
 </details>
+
+---
 
 **9. Implemente os casos de teste para a função getCharacter**
 
@@ -97,6 +113,8 @@ Confira os requisitos exigidos pela Trybe (texto extraído dos readme oficial da
 </p>
 </details>
 
+---
+
 **10. Implemente a função createMenu, bem como seus casos de teste**
 
 <details><summary>Detalhes</summary>
@@ -106,6 +124,8 @@ Confira os requisitos exigidos pela Trybe (texto extraído dos readme oficial da
 
 </p>
 </details>
+
+---
 
 ## Observações sobre as pastas
 
